@@ -1,0 +1,29 @@
+def hitung_fpb(a, b):
+  while b != 0:
+    r = a%b
+    a = b
+    b = r
+  return a;
+
+def hitung_kpk(x, y):
+  fpb = hitung_fpb(x, y)
+  kpk = (x * y) // fpb
+  return kpk
+
+bil1 = 3
+bil2 = 4
+
+kpk_3_dan_4 = hitung_kpk(bil1, bil2)
+print(f"{kpk_3_dan_4}")
+
+
+"""
+1. Tentukan 2 bilangan yang ingin 'dicari KPK-nya. Dalam kasus ini, bilangan pertama adalah 3 dan bilangan kedua adalah 4.
+2. Hitung FPB dari kedua bilangan tersebut.
+  - Untuk mencari FPB, Kita dapat menggunakan algoritma Euclidean. Bagi bilangan pertama dengan bilangan kedua dan simpan sisa hasil bagi.
+  - Gantikan bilangan pertama dengan bilangan kedua dan bilangan kedua denga  sisa bagi hasil sebelumnya.
+  - Terus laukan langkah di atas sampai sisa bagi hasil bagi menjadi 0. Pada titik ini, bilangan kedua adalah FPB dari dua bilangan awal.
+3.' Hitung KPK menggunakan formula: KPK = ((Bilangan awal * bilangan kedua) / FPB)
+4. KPK dari 3 dan 4 telah ditemukan..
+5. Selesai
+"""
