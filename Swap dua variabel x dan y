@@ -15,7 +15,7 @@ Pseudocode:
 		
 	manggis = x
 	pisang  = y
-	piring 3 = buffer
+	piring = buffer
 
 	buffer = x 
 	x = y
