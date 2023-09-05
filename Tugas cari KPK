@@ -1,12 +1,12 @@
 	Algoritma
 
-		1. Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, maka kembali ke No. 2.
+		1. Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, maka kembali ke No. 2
 		
-		2. Bagi nilai m dengan n, masukkan nilai sisanya ke r.
+		2. Bagi nilai m dengan n, masukkan nilai sisanya ke r
 
-		3. Masukan nilai n ke m dan nilai r ke n. Kembali ke No. 1.
+		3. Masukan nilai n ke m dan nilai r ke n. Kembali ke No. 1
 
-		4. Kali nilai m dengan n, masukkan nilai hasil kali ke p.
+		4. Kali nilai m dengan n, masukkan nilai hasil kali ke p
 
 		5. bagi nilai p dengan hasil No. 1
 
