@@ -1,26 +1,28 @@
 	Algoritma
 
-		  1. Mendeklarasikan luas, alas, dan tinggi
+		1. Mendeklarasikan: 
+		luas, alas, dan tinggi
 
-		  2. Masukan panjang = 5, tinggi = 3
+		2. Masukan: 
+		panjang = 5, tinggi = 3
 
-		  3. Menghitung luas = alas*tinggi
+		3. Menghitung: 
+		luas = alas*tinggi
 
-		  4. Menampilkan luas
+		4. Menampilkan luas
 
 
 	Pseudocode
 
+		Deklarasi
 
-		  Deklarasi
+		var luas, panjang, tinggi
 
-		  var luas, panjang, tinggi
+		panjang = 5
+		tinggi = 3
 
-		  panjang = 5
-		  tinggi = 3
+		luas = panjang*tinggi
 
-		  luas = panjang*tinggi
+		write(luas)
 
-		  write(luas)
-
-		  return 0
+		return 0
