@@ -1,4 +1,4 @@
-	Algoritma: 
+	Algoritma
 
 		1. definisikan swap dengan nilai x dan y
 				
@@ -9,7 +9,7 @@
 		4. saat y menjadi 0, nyatakan y sama dengan buffer/x, nilai y menjadi nilai x, dan nilai buffer menjadi 0
 
 
-	Pseudocode: 
+	Pseudocode
 
 		define swap(x,y)
 				
