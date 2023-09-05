@@ -1,0 +1,32 @@
+	Algoritma
+
+ 		1. Mendeklarasikan: 
+                volume, luas, diameter, tinggi, dan pi
+
+		2. Masukan: 
+                diameter = 5, tinggi = 4
+
+		3. Menghitung: 
+                luas = pi*diameter*diameter/4
+
+		4. Menghitung: 
+                volume = luas*tinggi/3
+
+		5. Menampilkan volume
+	
+	Pseudocode
+
+		Deklarasi
+
+		Var volume, luas, diameter, tinggi, pi
+
+		diameter = 5
+		tinggi = 4
+
+		luas = pi*diameter*diameter/4
+
+		volume = luas*tinggi/3
+
+		write(volume)
+
+		return 0
