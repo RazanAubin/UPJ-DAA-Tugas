@@ -1,13 +1,12 @@
-  Algoritma
+	Algoritma
 		
-		  Step 1 Mendeklarasikan luas, alas, dan tinggi
+		1 Mendeklarasikan luas, alas, dan tinggi
 
-		  Step 2 Masukan alas = 25, tinggi = 30
+		2 Masukan alas = 25, tinggi = 30
 
-		  Step 3 Menghitung luas = alas*tinggi/2
+		3 Menghitung luas = alas*tinggi/2
 
-		  Step 4 Menampilkan luas
-
+		4 Menampilkan luas
 	Pseudocode
 
 	  	deklarasi
