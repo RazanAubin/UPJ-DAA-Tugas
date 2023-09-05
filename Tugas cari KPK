@@ -1,26 +1,25 @@
 	Algoritma
 
-			1. Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, maka kembali ke No. 2
+		1. Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, maka kembali ke No. 2
 		
-			2. Bagi nilai m dengan n, masukkan nilai sisanya ke r
+		2. Bagi nilai m dengan n, masukkan nilai sisanya ke r
 
-			3. Masukan nilai n ke m dan nilai r ke n. Kembali ke No. 1
+		3. Masukan nilai n ke m dan nilai r ke n. Kembali ke No. 1
 
-			4. Kali nilai m dengan n, masukkan nilai hasil kali ke p
+		4. Kali nilai m dengan n, masukkan nilai hasil kali ke p
 
-			5. bagi nilai p dengan hasil No. 1
+		5. bagi nilai p dengan hasil No. 1
 
-	
 	Pseudocode
 
-			While n ≠ 0, do
-			r ← m mod n
-			m ← n
-			n ← r 
+		While n ≠ 0, do
+		r ← m mod n
+		m ← n
+		n ← r 
 
-			return m
+		return m
 	
-			m x n = p
-			p/r ← m mod n
-			
-			Return m
+		m x n = p
+		p/r ← m mod n
+	
+		Return m
