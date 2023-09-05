@@ -1,17 +1,17 @@
 	Algoritma
 		1. Mendeklarasikan: 
-     	 	 volume, luas, jari-jari, tinggi, dan pi
+     	 	volume, luas, jari-jari, tinggi, dan pi
 
-		  2. Masukan: 
-        	 jari-jari = 3, tinggi = 5
+		2. Masukan: 
+        	jari-jari = 3, tinggi = 5
 
-		  3. Menghitung: 
-        	 luas = pi*jari-jari*jari-jari
+		3. Menghitung: 
+        	luas = pi*jari-jari*jari-jari
 
-		  4. Menghitung: 
-        	 volume = luas*tinggi
+		4. Menghitung: 
+        	volume = luas*tinggi
 
-		  5. Menampilkan volume
+		5. Menampilkan volume
 
 	Pseudocode
 
