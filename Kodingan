@@ -1,0 +1,115 @@
+1.	Cari nilai KPK dari 3 dan 4
+    def kpk(a, b):
+      if a > b:
+        terbesar = a 
+      else:
+        terbesar = b 
+      while True:
+        if terbesar % a == 0 and terbesar % b == 0: 
+          hasil = terbesar
+        break 
+      terbesar += 1
+    return hasil
+    
+    a = 3
+    b = 4
+    print("KPK dari", a, "dan", b, "adalah", kpk(a, b))
+
+
+2.	Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : Ada 2 buah: manggis dan pisang
+    #Inisial Variabel 
+    x = "manggis"
+    y = "pisang" 
+    piring = [x, y, ""]
+    
+    #Tampilan Posisi awal 
+    print("piring 1 =", x) 
+    print("piring 2 =", y) 
+    print("piring 3 = ")
+    
+    #Menukar Posisi temp = x
+    x = y
+    y = temp
+    
+    #Tampilan posisi 
+    print("Setelah pertukaran:") 
+    print("piring 1", x)
+    print("piring 2", y)
+
+
+3.	Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+        	Alas	25
+        	Tinggi	30
+    Hitung luas dari segitiga tersebut
+
+    #def luas_segitiga (a,t):
+    #return 1/2*a*t
+    
+    #Deklarasikan variabel alas dan tinggi 
+    alas = 25
+    tinggi = 30
+    
+    #Hitung luas segitiga dengan rumus 
+    luas_segitiga = 1/2*alas*tinggi
+    
+    #Tampilan hasil luas 
+    print(luas_segitiga)
+
+
+4.	Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+        	Panjang	5
+        	Tinggi	3
+    Hitung luas dari jajar genjang tersebut. 
+
+    #def luas_jajargenjang (a,t): 
+    #return 1/2*a*t
+    
+    #Deklarasikan variabel alas dan tinggi 
+    alas = 25
+    tinggi = 30
+    
+    
+    #Hitung luas jajar genjang dengan rumus 
+    luas_jajargenjang = 1/2*alas*tinggi
+    
+    #Tampilan hasil luas jajar genjang 
+    print(luas_jajargenjang)
+
+
+5.	Diketahui sebuah tabung memiliki ukuran sebagai berikut:
+        	Jari-jari	3
+        	Tinggi	5
+    Hitung volume dari tabung tersebut.
+
+    #def volume_tabung (r,t):
+    #return 3.14*r*r*t
+    
+    #Deklarasikan variabel jari-jari dan tinggi 
+    jari = 3
+    tinggi = 5
+    
+    #Hitung volume tabung dengan rumus 
+    volume_tabung = 3.14*jari*jari*tinggi
+    
+    #Cetak hasil volume tabung 
+    print(volume_tabung)
+
+
+6.	Diketahui sebuah kerucut memiliki ukuran sebagai berikut:
+        	Diameter	: 5
+        	Tinggi	4
+    Hitung volume dari kerucut tersebut.
+
+    #def volume_kerucut (r,t):
+    #return 1/3*3.14*r*r*t
+    
+    #Deklarasikan variabel jari-jari diamter dan tinggi 
+    diameter = 5
+    jari = 2.5
+    tinggi = 4
+    
+    #rumus volume kerucut
+    volume_kerucut = 1/3*3.14*jari*jari*tinggi
+    
+    #Cetak hasil volume kerucut 
+    print(volume_kerucut)
